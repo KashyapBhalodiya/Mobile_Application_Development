@@ -1,5 +1,6 @@
 fun main() {
-    val x = 1
+    println("Enter the number of month: ")
+    val x = readLine()!!.toInt()
 
     when (x) {
         1->{

@@ -1,6 +1,9 @@
 fun main() {
-    val x = 2
-    println(if(x > 0) "Value is positive"
-            else "value is negative"
-    )
+    println("Enter the number")
+    val x = readLine()!!.toInt()
+
+    if (x % 2 == 0)
+        println("$x is even number")
+    else
+        println("$x is odd number")
 }

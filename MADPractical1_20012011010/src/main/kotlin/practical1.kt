@@ -1,12 +1,29 @@
 fun main() {
-    println("Hello World")
+    var x = 123
+    println("Integer value: $x")
 
-    var x : Int = 1
-    val y : Int = 2
+    var y = 12.21
+    println("Float value: $y")
 
-    println("x=$x")
-    println("y=$y")
+    var ch = 'a'
+    println("Character value: $ch")
 
-    var a = 14.21f
-    println("a=$a")
+    var s = "Kotlin"
+    println("String value: $s")
+
+    var b = true
+    println("Boolean value: $b")
+
+    var d = 12.2143
+    println("Double value: $d")
+
+    var l = 122141424
+    println("Long value: $l")
+
+    var sh = 1
+    println("Short value: $sh")
+
+    var a = 12
+    println("Byte value: $a")
 }
+
