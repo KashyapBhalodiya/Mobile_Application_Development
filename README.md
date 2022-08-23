@@ -2,4 +2,4 @@
 College practicals
 
 # Practical - 1
-Pending
+Done
